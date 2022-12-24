@@ -473,6 +473,12 @@ button {
 
 /* about section start */
 
+.about_awards {
+    width: 100%;
+    font-size: 16px;
+    color: #1f1f1f;
+}
+
 .about_section {
     width: 100%;
     float: left;
@@ -504,6 +510,14 @@ button {
     color: #1f1f1f;
     margin: 0px;
     padding-top: 40px;
+}
+
+.about_year {
+    width: 100%;
+    float: left;
+    font-size: 22px;
+    color: #1f1f1f;
+    font-weight: bold;
 }
 
 .readmore_bt {
