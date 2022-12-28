@@ -697,7 +697,6 @@ button {
     height: 20px;
     border-radius: 100%;
     background-color: #8781bd;
-    bottom: -130px;
 }
 
 .carousel-indicators .active {
@@ -714,9 +713,7 @@ button {
     float: left;
     background-image: url(../images/footer-bg.png);
     height: auto;
-    padding-top: 250px;
     background-size: 100% 100%;
-    padding-bottom: 30px;
     background-repeat: no-repeat;
 }
 
