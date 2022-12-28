@@ -135,7 +135,7 @@
     .banner_text {
         width: 100%;
     }
-    .about_taital_main {
+    .about_title_main {
         padding-left: 25px;
         padding-top: 40px;
     }
@@ -146,7 +146,7 @@
     .readmore_bt {
         margin-top: 30px;
     }
-    .blog_section {
+    .video_section {
         background-size: 100% 100%;
         padding-bottom: 220px;
         padding-top: 160px;
@@ -154,7 +154,7 @@
     .play_icon_main {
         margin-top: 50px;
     }
-    .client_taital {
+    .member_title {
         padding-top: 0px;
     }
     .box_left {
@@ -166,19 +166,19 @@
     .lorem_text {
         padding: 100px 40px;
     }
-    .client_taital_left {
+    .member_title_left {
         width: 50%;
         float: left;
     }
-    .client_taital_right {
+    .member_title_right {
         width: 50%;
         float: left;
         padding-left: 20px;
     }
-    .client_section_2 {
+    .member_section_2 {
         padding: 40px 30px;
     }
-    .client_name {
+    .member_name {
         padding-top: 25px;
     }
     .choose_section {
@@ -205,7 +205,7 @@
     .banner_text {
         width: 100%;
     }
-    .about_taital_main {
+    .about_title_main {
         padding-left: 25px;
         padding-top: 0px;
     }
@@ -219,7 +219,7 @@
     .about_img {
         height: 340px;
     }
-    .blog_section {
+    .video_section {
         background-size: 100% 100%;
         padding-bottom: 220px;
         padding-top: 160px;
@@ -227,7 +227,7 @@
     .play_icon_main {
         margin-top: 50px;
     }
-    .client_taital {
+    .member_title {
         padding-top: 0px;
     }
     .box_left {
@@ -239,19 +239,19 @@
     .lorem_text {
         padding: 30px 10px;
     }
-    .client_taital_left {
+    .member_title_left {
         width: 50%;
         float: left;
     }
-    .client_taital_right {
+    .member_title_right {
         width: 50%;
         float: left;
         padding-left: 20px;
     }
-    .client_section_2 {
+    .member_section_2 {
         padding: 40px 30px;
     }
-    .client_name {
+    .member_name {
         padding-top: 25px;
     }
     .choose_section {
@@ -309,7 +309,7 @@
     .mobile_menu {
         display: initial;
     }
-    .banner_taital {
+    .banner_title {
         font-size: 50px;
     }
     .bg-light {
@@ -348,23 +348,26 @@
     .banner_section {
         padding: 50px 0px;
     }
-    .services_section {
+    .projects_section {
         padding: 50px 0px;
     }
-    .services_section_2 {
+    .projects_section_2 {
         margin-top: 30px;
     }
-    .services_img {
+    .projects_img {
         margin-top: 40px;
     }
     .about_section {
         padding: 50px 0px;
     }
-    .about_taital_main {
+    .about_title_main {
         padding-top: 0px;
         padding-left: 0px;
     }
     .about_text {
+        font-size: 15px;
+    }
+    .about_awards {
         font-size: 15px;
     }
     .about_img {
@@ -373,12 +376,12 @@
     .padding_right_0 {
         padding-right: 15px;
     }
-    .blog_section {
-        background-image: url(../images/blog-mobile-bg.png);
+    .video_section {
+        background-image: url(../images/peng.jpg);
         background-size: cover;
         padding: 50px 0px;
     }
-    .blog_text {
+    .video_text {
         width: 100%;
     }
     .play_icon_main {
@@ -387,11 +390,11 @@
     .play_icon {
         width: 145px;
     }
-    .client_section_2 {
+    .member_section_2 {
         padding: 30px 20px;
         margin-top: 50px;
     }
-    .client_main {
+    .member_main {
         display: inherit;
     }
     .box_left {
@@ -404,13 +407,13 @@
     .box_right {
         width: 100%;
     }
-    .client_name {
+    .member_name {
         padding-top: 25px;
     }
-    .client_taital_right {
+    .member_title_right {
         padding-left: 20px;
     }
-    .choose_taital {
+    .choose_title {
         font-size: 30px;
     }
     .choose_section {
@@ -460,7 +463,7 @@
     .social_icon {
         display: inline-block;
     }
-    .contact_taital {
+    .contact_title {
         font-size: 30px;
     }
     .email_text {
@@ -507,7 +510,7 @@
     .mobile_menu {
         display: initial;
     }
-    .banner_taital {
+    .banner_title {
         font-size: 50px;
     }
     .bg-light {
@@ -546,19 +549,19 @@
     .banner_section {
         padding: 50px 0px;
     }
-    .services_section {
+    .projects_section {
         padding: 50px 0px;
     }
-    .services_section_2 {
+    .projects_section_2 {
         margin-top: 30px;
     }
-    .services_img {
+    .projects_img {
         margin-top: 40px;
     }
     .about_section {
         padding: 50px 0px;
     }
-    .about_taital_main {
+    .about_title_main {
         padding-top: 0px;
         padding-left: 0px;
     }
@@ -571,12 +574,12 @@
     .padding_right_0 {
         padding-right: 15px;
     }
-    .blog_section {
-        background-image: url(../images/blog-mobile-bg.png);
+    .video_section {
+        background-image: url(../images/peng.jpg);
         background-size: cover;
         padding: 50px 0px;
     }
-    .blog_text {
+    .video_text {
         width: 100%;
     }
     .play_icon_main {
@@ -585,11 +588,11 @@
     .play_icon {
         width: 145px;
     }
-    .client_section_2 {
+    .member_section_2 {
         padding: 30px 20px;
         margin-top: 50px;
     }
-    .client_main {
+    .member_main {
         display: inherit;
     }
     .box_left {
@@ -602,13 +605,13 @@
     .box_right {
         width: 100%;
     }
-    .client_name {
+    .member_name {
         padding-top: 25px;
     }
-    .client_taital_right {
+    .member_title_right {
         padding-left: 20px;
     }
-    .choose_taital {
+    .choose_title {
         font-size: 30px;
     }
     .choose_section {
@@ -658,7 +661,7 @@
     .social_icon {
         display: inline-block;
     }
-    .contact_taital {
+    .contact_title {
         font-size: 28px;
     }
     .email_text {
