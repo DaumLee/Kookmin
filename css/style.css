@@ -630,9 +630,9 @@ button {
 .lorem_text {
     width: 100%;
     font-size: 16px;
+    margin-bottom: 100px;
     text-align: center;
     color: #0d0d0d;
-    padding: 40px;
 }
 
 .member_title_left {
@@ -650,6 +650,15 @@ button {
     float: left;
     margin-bottom: 20px;
     text-align: left;
+}
+
+.quot {
+    width: 100%;
+    font-size: 160px;
+    margin-top: 50px;
+    font-family: 'Manrope', sans-serif;
+    color:#000d10;
+    font-weight: bold;
 }
 
 .quick_icon {
