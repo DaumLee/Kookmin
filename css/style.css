@@ -354,7 +354,7 @@ button {
     padding-bottom: 305px;
 }
 
-.banner_taital {
+.banner_title {
     width: 100%;
     float: left;
     font-size: 80px;
@@ -373,43 +373,17 @@ button {
     text-align: center;
 }
 
-.read_bt {
-    width: 200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.read_bt a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #141414;
-    background-color: #ffffff;
-    text-align: center;
-    padding: 10px 0px;
-    border-radius: 30px;
-    margin-top: 50px;
-    font-weight: 400;
-}
-
-.read_bt a:hover {
-    background-color: #2b2278;
-    color: #ffffff;
-}
-
-
 /* banner section end */
 
+/* projects section start */
 
-/* services section start */
-
-.services_section {
+.projects_section {
     width: 100%;
     float: left;
     padding-bottom: 90px;
 }
 
-.services_taital {
+.projects_title {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -417,7 +391,7 @@ button {
     font-weight: bold;
 }
 
-.services_text {
+.projects_text {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -425,13 +399,13 @@ button {
     margin: 0px;
 }
 
-.services_section_2 {
+.projects_section_2 {
     width: 100%;
     float: left;
     margin-top: 90px;
 }
 
-.services_img {
+.projects_img {
     width: 100%;
     float: left;
     text-align: center;
@@ -468,7 +442,7 @@ button {
 }
 
 
-/* services section end */
+/* projects section end */
 
 
 /* about section start */
@@ -476,6 +450,7 @@ button {
 .about_awards {
     width: 100%;
     font-size: 16px;
+    padding-right: 50px;
     color: #1f1f1f;
 }
 
@@ -485,7 +460,7 @@ button {
     padding-bottom: 90px;
 }
 
-.about_taital_main {
+.about_main {
     width: 100%;
     padding-left: 100px;
     padding-top: 70px;
@@ -495,7 +470,7 @@ button {
     padding-right: 0px;
 }
 
-.about_taital {
+.about_title {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -520,30 +495,6 @@ button {
     font-weight: bold;
 }
 
-.readmore_bt {
-    width: 170px;
-    float: left;
-    margin-top: 50px;
-}
-
-.readmore_bt a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #000d10;
-    text-align: center;
-    padding: 10px 0px;
-    border-radius: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.readmore_bt a:hover {
-    color: #ffffff;
-    background-color: #2b2278;
-}
-
 .about_img {
     width: 80%;
     float: right;
@@ -551,11 +502,10 @@ button {
 
 
 /* contact section end */
+ 
+/* video section start */
 
-
-/* blog section start */
-
-.blog_section {
+.video_section {
     width: 100%;
     float: left;
     background-image: url(../images/blog-bg.png);
@@ -566,7 +516,7 @@ button {
     padding-top: 200px;
 }
 
-.blog_taital {
+.video_title {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -576,7 +526,7 @@ button {
     text-align: center;
 }
 
-.blog_text {
+.video_text {
     width: 80%;
     margin: 0 auto;
     font-size: 16px;
@@ -628,18 +578,18 @@ button {
 .margin_top_90{
     margin-top: 90px;
 }
-/* blog section end */
+/* video section end */
 
 
-/* client section start */
+/* member section start */
 
-.client_section {
+.member_section {
     width: 100%;
     float: left;
     padding-bottom: 160px;
 }
 
-.client_taital {
+.member_title {
     width: 100%;
     font-size: 40px;
     color: #131313;
@@ -648,7 +598,7 @@ button {
     text-align: center;
 }
 
-.client_section_2 {
+.member_section_2 {
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -659,7 +609,7 @@ button {
     margin-top: 50px; */
 }
 
-.client_main {
+.member_main {
     width: 100%;
     display: flex;
 }
@@ -687,17 +637,17 @@ button {
 /*     border-radius: 30px; */
 }
 
-.client_taital_left {
+.member_title_left {
     width: 40%;
     float: left;
 }
 
-.client_taital_right {
+.member_title_right {
     width: 60%;
     float: left;
 }
 
-.client_img {
+.member_img {
     width: 80%;
     float: left;
     margin-bottom: 20px;
@@ -718,7 +668,7 @@ button {
     margin-bottom: 50px;
 }
 
-.client_name {
+.member_name {
     width: 100%;
     float: left;
     font-size: 24px;
@@ -754,165 +704,7 @@ button {
 }
 
 
-/* client section end */
-
-
-/* choose section start */
-
-.choose_section {
-    width: 100%;
-    float: left;
-    padding-bottom: 90px;
-}
-
-.choose_taital {
-    width: 100%;
-    font-size: 40px;
-    color: #1f1f1f;
-    font-weight: bold;
-    text-align: center;
-}
-
-.choose_text {
-    width: 70%;
-    margin: 0 auto;
-    font-size: 16px;
-    color: #1f1f1f;
-    padding-top: 30px;
-    text-align: center;
-}
-
-.read_bt_1 {
-    width: 170px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.read_bt_1 a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #000d10;
-    text-align: center;
-    padding: 10px 0px;
-    border-radius: 30px;
-    margin-top: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.read_bt_1 a:hover {
-    background-color: #2b2278;
-    color: #ffffff;
-}
-
-.newsletter_box {
-    width: 100%;
-    border: 1px solid #6e6e6e;
-    border-radius: 25px;
-    padding: 20px 30px;
-    display: flex;
-    margin-top: 90px !important;
-    float: left;
-}
-
-.let_text {
-    width: 100%;
-    font-size: 40px;
-    color: #1f1f1f;
-    font-weight: bold;
-    padding-bottom: 0px;
-}
-
-.getquote_bt {
-    width: 200px;
-    padding-top: 6px;
-}
-
-.getquote_bt a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #2b2278;
-    text-align: center;
-    padding: 10px 0px;
-    border-radius: 30px;
-    font-weight: bold;
-}
-
-.getquote_bt a:hover {
-    background-color: #000d10;
-    color: #ffffff;
-}
-
-
-/* choose section end */
-
-/* contact section start */
-
-.contact_section {
-    width: 100%;
-    float: left;
-    padding-bottom: 90px;
-}
-.contact_taital {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #363636;
-    text-align: center;
-    font-weight: bold;
-}
-.email_text {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 120px;
-}
-.email-bt {
-    width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #393838;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    border: 0px;
-    border: 1px solid #2b2278 !important;
-}
-.massage-bt {
-    width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #393838;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    border: 0px;
-    border: 1px solid #2b2278 !important;
-}
-.send_btn {
-    width: 170px;
-    margin: 0 auto;
-    text-align: center;
-}
-.send_btn a {
-    width: 100%;
-    float: right;
-    text-align: center;
-    font-size: 20px;
-    color: #ffffff;
-    border-radius: 30px;
-    background-color: #000d10;
-    padding: 7px;
-}
-.send_btn a:hover {
-    color: #ffffff;
-    background-color: #2b2278;
-}
-/* contact section end */
-
-
+/* member section end */
 
 /* footer section start */
 
@@ -925,48 +717,6 @@ button {
     background-size: 100% 100%;
     padding-bottom: 30px;
     background-repeat: no-repeat;
-}
-
-.input_btn_main {
-    width: 50%;
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 40px;
-    padding: 8px 0px;
-    margin: 0 auto;
-}
-
-.mail_text {
-    width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #2b2c2c;
-    background-color: #ffffff;
-    height: auto;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: 0px;
-}
-
-.subscribe_bt {
-    float: right;
-}
-
-.subscribe_bt a {
-    width: 170px;
-    float: left;
-    font-size: 18px;
-    color: #2b2278;
-    background-color: transparent;
-    padding: 5px 0px;
-    text-align: center;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.subscribe_bt a:hover {
-    color: #000;
-    background-color: transparent;
 }
 
 .social_icon {
