@@ -251,7 +251,7 @@ button {
 .logo_mobile {
     width: 100%;
     float: left;
-    text-align: center;
+/*     text-align: center; */
     padding-bottom: 20px;
 }
 
