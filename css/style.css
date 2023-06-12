@@ -510,7 +510,7 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/pixelme.svg);
-    background-size: 20% 20%;
+    background-size: 5%, 5%;
     height: auto;
     background-repeat: no-repeat;
     background-size: 100%;
