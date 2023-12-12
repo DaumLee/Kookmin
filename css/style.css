@@ -373,15 +373,6 @@ button {
     font-weight: bold;
 }
 
-.projects_text {
-    width: 100%;
-    /* float: left; */
-    font-size: 16px;
-    color: #000000;
-    /* margin: 0px; */
-    margin-top: 10px;
-}
-
 .projects_youtube {
     width: 100%;
     /* float: left; */
@@ -399,10 +390,19 @@ button {
     /* margin-top: 30px; */
 }
 
-.projects_section_3 {
+.projects_section_2 div {
     width: 100%;
     float: left;
     margin-top: 20px;
+}
+
+.projects_section_2 div p {
+    width: 100%;
+    /* float: left; */
+    font-size: 16px;
+    color: #000000;
+    /* margin: 0px; */
+    margin-top: 10px;
 }
 
 .btn_main {
@@ -441,13 +441,6 @@ button {
 
 /* about section start */
 
-.about_awards {
-    width: 100%;
-    font-size: 16px;
-    padding-right: 50px;
-    color: #1f1f1f;
-}
-
 .about_section {
     width: 100%;
     float: left;
@@ -459,7 +452,14 @@ button {
     padding-left: 100px;
 }
 
-.about_title {
+.about_title_main p {
+    width: 100%;
+    font-size: 16px;
+    padding-right: 50px;
+    color: #1f1f1f;
+}
+
+.about_title_main h1 {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -467,15 +467,7 @@ button {
     font-weight: bold;
 }
 
-.about_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #1f1f1f;
-    padding-top: 40px;
-}
-
-.about_year {
+.about_title_main h2 {
     width: 100%;
     float: left;
     font-size: 22px;
