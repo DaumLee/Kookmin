@@ -1,35 +1,20 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@font-face {
-    font-family: "Righteous";
-    src: url("../fonts/BalooChettan-Regular.ttf");
-    src: url("../fonts/BalooChettan-Regular.ttf");
-}
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Manrope&display=swap');
-
-/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
- 2) font-family: 'Poppins', sans-serif;
- ----------------------------------------*****/
-
-
-/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
-
-@import url(animate.min.css);
+@import url(jquery-ui.css);
 @import url(normalize.css);
+@import url(animate.min.css);
 @import url(icomoon.css);
 @import url(css/font-awesome.min.css);
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
-@import url(swiper.min.css);
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
-@import url(jquery-ui.css);
 @import url(nice-select.css);
+
+@font-face {
+    font-family: "Righteous";
+}
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -72,7 +57,6 @@ h6 {
     font-weight: normal;
     position: relative;
     padding: 0 0 10px 0;
-    font-weight: normal;
     line-height: normal;
     color: #111111;
     margin: 0
@@ -128,8 +112,6 @@ button:focus {
 ul,
 li,
 ol {
-    margin: 0px;
-    padding: 0px;
     list-style: none;
 }
 
@@ -218,11 +200,6 @@ button {
 
 .layout_padding {
     padding-top: 90px;
-    padding-bottom: 0px;
-}
-
-.padding_0 {
-    padding: 0px;
 }
 
 
@@ -234,7 +211,7 @@ button {
     background-image: url(../images/banner-bg.png);
     height: auto;
     background-size: 100%;
-    padding: 0px 0px 20px 0px;
+    padding: 0 0 20px 0;
 }
 
 .bg-light {
@@ -245,7 +222,7 @@ button {
     width: 100%;
     float: left;
     text-align: center;
-    padding: 20px 0px 50px 0px;
+    padding: 20px 0 50px 0;
 }
 
 .logo_mobile {
@@ -292,7 +269,6 @@ button {
     -ms-flex-direction: column;
     flex-direction: column;
     padding-left: 0;
-    margin-bottom: 0;
     list-style: none;
     width: 100%;
     text-align: center;
@@ -300,20 +276,15 @@ button {
 }
 
 .menu_main ul {
-    margin: 0px;
-    padding: 0px;
     list-style: none;
     display: inline-flex;
 }
 
 .menu_main li {
     float: left;
-    padding-left: 10px;
-    padding-right: 10px;
     font-size: 18px;
     text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     color: #fff;
     border-radius: 40px;
 }
@@ -338,9 +309,8 @@ button {
 
 .header_main {
     width: 100%;
-    background-image: url(../images/header-bg.png);
     background-size: 100%;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0 0 0;
 }
 
 
@@ -363,7 +333,7 @@ button {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Righteous', Regular;
+    font-family: 'Righteous', Regular, serif;
 }
 
 .banner_text {
@@ -435,13 +405,6 @@ button {
     margin-top: 20px;
 }
 
-.projects_img {
-/*     height: 100%;
-    width: 100%; */
-    float: center;
-    text-align: center;
-}
-
 .btn_main {
     width: 170px;
     margin: 0 auto;
@@ -455,7 +418,7 @@ button {
     color: #ffffff;
     background-color: #2b2278;
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 0;
     border-radius: 30px;
     font-weight: bold;
     margin-top: 40px;
@@ -496,10 +459,6 @@ button {
     padding-left: 100px;
 }
 
-.padding_right_0 {
-    padding-right: 0px;
-}
-
 .about_title {
     width: 100%;
     float: left;
@@ -513,7 +472,6 @@ button {
     float: left;
     font-size: 16px;
     color: #1f1f1f;
-    margin: 0px;
     padding-top: 40px;
 }
 
@@ -539,7 +497,6 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/pixelme.svg);
-    background-size: 150px;
     height: auto;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -592,7 +549,7 @@ button {
     border-radius: 100%;
     z-index: -1;
     animation: fadeEffect 1.3s infinite ease;
-    box-shadow: 0px 0px 10px 0px;
+    box-shadow: 0 0 10px 0;
     right: inherit;
 }
 
@@ -635,7 +592,7 @@ button {
     margin: 0 auto;
     text-align: center;
     background-color: #ffffff;
-    box-shadow: 0px 1px 16px -6px;
+    box-shadow: 0 1px 16px -6px;
     border-radius: 30px;
 /*     padding: 50px 70px;
     margin-top: 50px; */
@@ -717,7 +674,6 @@ button {
     text-transform: uppercase;
     text-align: left;
     padding-top: 53px;
-    padding-bottom: 0px;
 }
 
 .customer_text {
@@ -728,7 +684,6 @@ button {
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
-    margin: 0px;
 }
 
 .carousel-indicators li {
@@ -746,61 +701,6 @@ button {
 
 /* member section end */
 
-/* footer section start */
-
-.footer_section {
-    width: 100%;
-    float: left;
-    background-image: url(../images/footer-bg.png);
-    height: auto;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-.social_icon {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.social_icon ul {
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;
-    text-align: center;
-}
-
-.social_icon li {
-    float: left;
-    padding: 30px 5px;
-}
-
-.location_main {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.call_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    padding-top: 10px
-}
-
-.call_text a {
-    color: #ffffff;
-}
-
-.call_text a:hover {
-    color: #e27141;
-}
-
-
-/* footer section end */
-
 .copyright_section {
     width: 100%;
     float: left;
@@ -814,7 +714,6 @@ button {
     color: #ffffff;
     text-align: center;
     font-size: 16px;
-    margin-left: 0px;
 }
 
 .copyright_text a {
