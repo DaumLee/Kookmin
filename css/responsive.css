@@ -179,12 +179,6 @@
     .member_name {
         padding-top: 25px;
     }
-    .choose_section {
-        padding-top: 0;
-    }
-    .choose_text {
-        width: 100%;
-    }
     .input_btn_main {
         width: 60%;
     }
@@ -239,12 +233,6 @@
     }
     .member_name {
         padding-top: 25px;
-    }
-    .choose_section {
-        padding-top: 0;
-    }
-    .choose_text {
-        width: 100%;
     }
     .input_btn_main {
         width: 90%;
@@ -389,19 +377,6 @@
     }
     .member_title_right {
         padding-left: 20px;
-    }
-    .choose_title {
-        font-size: 30px;
-    }
-    .choose_section {
-        padding: 50px 0;
-    }
-    .choose_text {
-        width: 100%;
-        font-size: 15px;
-    }
-    .newsletter_box {
-        display: initial;
     }
     .let_text {
         font-size: 30px;
@@ -576,19 +551,6 @@
     }
     .member_title_right {
         padding-left: 20px;
-    }
-    .choose_title {
-        font-size: 30px;
-    }
-    .choose_section {
-        padding: 50px 0;
-    }
-    .choose_text {
-        width: 100%;
-        font-size: 15px;
-    }
-    .newsletter_box {
-        display: initial;
     }
     .let_text {
         font-size: 30px;
