@@ -382,7 +382,7 @@ button {
     width: 100%;
     /* float: left; */
     font-size: 16px;
-    color: #000000;
+    color: #1f1f1f;
     /* margin: 0px; */
     margin-top: 10px;
 }
@@ -420,7 +420,7 @@ button {
     width: 100%;
     /* float: left; */
     font-size: 16px;
-    color: #000000;
+    color: #1f1f1f;
     /* margin: 0px; */
     margin-top: 10px;
     /* font-family: 'Do Hyeon', sans-serif; */
@@ -441,11 +441,20 @@ button {
     text-align: left;
 }
 
+.projects_section_2 div p {
+    width: 100%;
+    /* float: left; */
+    font-size: 16px;
+    color: #1f1f1f;
+    /* margin: 0px; */
+    margin-top: 10px;
+}
+
 .projects_section_2 div a {
     width: 100%;
     /* float: left; */
     font-size: 16px;
-    color: #000000;
+    color: #1f1f1f;
     /* margin: 0px; */
     margin-top: 10px;
 }
@@ -473,10 +482,11 @@ button {
     background-color: #2b2278;
     text-align: center;
     padding: 10px 0;
-    border-radius: 30px;
+    border-radius: 2rem;
     font-weight: bold;
     margin-top: 1rem;
     text-transform: uppercase;
+    vertical-align: middle;
 }
 
 .btn_main a:hover {
@@ -530,8 +540,9 @@ button {
 }
 
 .about_img {
-    width: 60%;
+    width: 100%;
     float: right;
+    margin-right: 2rem;
 }
 
 
@@ -548,6 +559,16 @@ button {
     background-repeat: no-repeat;
     margin-top: 5rem;
     margin-bottom: 20rem;
+}
+
+.video_title {
+    width: 100%;
+    float: left;
+    font-size: 32px;
+    color: #1f1f1f;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
 }
 
 .play_icon_main {
@@ -730,6 +751,7 @@ button {
 .copyright_section {
     width: 100%;
     float: left;
+    margin-top: 2rem;
     background-color: #122c2d;
     height: auto;
 }
