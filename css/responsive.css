@@ -222,10 +222,8 @@
         width: 60%;
     }
     .box_right {
-        width: 40%;
-    }
-    .lorem_text {
-        padding: 30px 10px;
+        width: 50%;
+        float:right;
     }
     .member_title_left {
         width: 50%;
@@ -382,12 +380,9 @@
     .box_left {
         width: 100%;
     }
-    .lorem_text {
-        padding: 30px 10px;
-        font-size: 15px;
-    }
     .box_right {
         width: 100%;
+        padding-top: 0;
     }
     .member_name {
         padding-top: 25px;
@@ -572,10 +567,6 @@
     }
     .box_left {
         width: 100%;
-    }
-    .lorem_text {
-        padding: 30px 10px;
-        font-size: 15px;
     }
     .box_right {
         width: 100%;
