@@ -359,9 +359,41 @@ button {
 .home_mail {
     width: 100%;
     font-size: 16px;
-    padding-right: 50px;
     color: #1f1f1f;
     text-align: center;
+}
+
+.home_projects {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.home_projects div {
+    width: 100%;
+    float: left;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.home_projects div a {
+    width: 100%;
+    /* float: left; */
+    font-size: 16px;
+    color: #000000;
+    /* margin: 0px; */
+    margin-top: 10px;
+}
+
+.home_projects div a:hover{
+    width: 100%;
+    /* float: left; */
+    font-size: 16px;
+    color: #007bff;
+    /* margin: 0px; */
+    margin-top: 10px;
 }
 
 /* home section end */
@@ -380,6 +412,8 @@ button {
     font-size: 40px;
     color: #1f1f1f;
     font-weight: bold;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
 }
 
 .projects_youtube {
@@ -403,7 +437,6 @@ button {
     width: 100%;
     float: left;
     margin-top: 0.5rem;
-    display: flex;
     flex-wrap: wrap;
     text-align: left;
 }
@@ -413,6 +446,15 @@ button {
     /* float: left; */
     font-size: 16px;
     color: #000000;
+    /* margin: 0px; */
+    margin-top: 10px;
+}
+
+.projects_section_2 div a:hover{
+    width: 100%;
+    /* float: left; */
+    font-size: 16px;
+    color: #007bff;
     /* margin: 0px; */
     margin-top: 10px;
 }
