@@ -139,10 +139,6 @@
         padding-left: 25px;
         padding-top: 40px;
     }
-    .about_text {
-        padding-top: 0;
-        font-size: 14px;
-    }
     .readmore_bt {
         margin-top: 30px;
     }
@@ -160,9 +156,7 @@
     }
     .box_right {
         width: 40%;
-    }
-    .lorem_text {
-        padding: 100px 40px;
+        padding-top: 5rem;
     }
     .member_title_left {
         width: 50%;
@@ -173,14 +167,8 @@
         float: left;
         padding-left: 20px;
     }
-    .member_section_2 {
-        padding: 40px 30px;
-    }
     .member_name {
         padding-top: 25px;
-    }
-    .input_btn_main {
-        width: 60%;
     }
 }
 
@@ -195,10 +183,6 @@
     .about_title_main {
         padding-left: 25px;
         padding-top: 0;
-    }
-    .about_text {
-        padding-top: 0;
-        font-size: 14px;
     }
     .readmore_bt {
         margin-top: 30px;
@@ -228,14 +212,11 @@
         float: left;
         padding-left: 20px;
     }
-    .member_section_2 {
-        padding: 40px 30px;
-    }
     .member_name {
         padding-top: 25px;
     }
-    .input_btn_main {
-        width: 90%;
+    .btn_main a {
+        display: none;
     }
 }
 
@@ -336,17 +317,8 @@
         padding-top: 0;
         padding-left: 0;
     }
-    .about_text {
-        font-size: 15px;
-    }
-    .about_awards {
-        font-size: 15px;
-    }
     .about_img {
         display: none;
-    }
-    .padding_right_0 {
-        padding-right: 15px;
     }
     .video_section {
         width: 100%;
@@ -371,51 +343,13 @@
     .box_right {
         width: 100%;
         padding-top: 0;
+        padding-left: 3rem;
     }
     .member_name {
         padding-top: 25px;
     }
     .member_title_right {
         padding-left: 20px;
-    }
-    .let_text {
-        font-size: 30px;
-        text-align: center;
-    }
-    .getquote_bt {
-        margin: 0 auto;
-    }
-    .input_btn_main {
-        width: 100%;
-        display: inherit;
-        background-color: transparent !important;
-    }
-    .subscribe_bt {
-        margin: 0 auto;
-        text-align: center;
-        width: 200px;
-        float: initial;
-    }
-    .subscribe_bt a {
-        width: 100%;
-        background-color: #ffffff;
-        margin-top: 50px;
-        border-radius: 40px;
-        margin-bottom: 50px;
-    }
-    .subscribe_bt a:hover {
-        color: #000;
-        background-color: #ffffff;
-    }
-    .social_icon {
-        display: inline-block;
-    }
-    .contact_title {
-        font-size: 30px;
-    }
-    .email_text {
-        width: 100%;
-        padding-top: 90px;
     }
 }
 
@@ -515,14 +449,8 @@
         padding-top: 0;
         padding-left: 0;
     }
-    .about_text {
-        font-size: 15px;
-    }
     .about_img {
         display: none;
-    }
-    .padding_right_0 {
-        padding-right: 15px;
     }
     .video_section {
         background-image: url(../images/pixelme.svg);
@@ -545,51 +473,14 @@
     }
     .box_right {
         width: 100%;
+        padding-top: 0;
+        padding-left: 3rem;
     }
     .member_name {
         padding-top: 25px;
     }
     .member_title_right {
         padding-left: 20px;
-    }
-    .let_text {
-        font-size: 30px;
-        text-align: center;
-    }
-    .getquote_bt {
-        margin: 0 auto;
-    }
-    .input_btn_main {
-        width: 100%;
-        display: inherit;
-        background-color: transparent !important;
-    }
-    .subscribe_bt {
-        margin: 0 auto;
-        text-align: center;
-        width: 200px;
-        float: initial;
-    }
-    .subscribe_bt a {
-        width: 100%;
-        background-color: #ffffff;
-        margin-top: 50px;
-        border-radius: 40px;
-        margin-bottom: 50px;
-    }
-    .subscribe_bt a:hover {
-        color: #000;
-        background-color: #ffffff;
-    }
-    .social_icon {
-        display: inline-block;
-    }
-    .contact_title {
-        font-size: 28px;
-    }
-    .email_text {
-        width: 100%;
-        padding-top: 90px;
     }
 
 }
