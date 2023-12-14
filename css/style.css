@@ -346,22 +346,31 @@ button {
 
 /* banner section end */
 
-/* index section start */
+/* home section start */
 
-.index_text {
+.home_text {
     width: 100%;
     font-size: 16px;
     padding-right: 50px;
     color: #1f1f1f;
+    text-align: left;
 }
 
-/* index section end */
+.home_mail {
+    width: 100%;
+    font-size: 16px;
+    padding-right: 50px;
+    color: #1f1f1f;
+    text-align: center;
+}
+
+/* home section end */
 
 /* projects section start */
 
 .projects_section {
     width: 100%;
-    float: left;
+    margin: 0 auto;
     padding-bottom: 90px;
 }
 
@@ -386,17 +395,20 @@ button {
 
 .projects_section_2 {
     width: 100%;
-    float: left;
-    /* margin-top: 30px; */
+    margin: 0 auto;
+    text-align: left;
 }
 
 .projects_section_2 div {
     width: 100%;
     float: left;
-    margin-top: 20px;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
-.projects_section_2 div p {
+.projects_section_2 div a {
     width: 100%;
     /* float: left; */
     font-size: 16px;
@@ -421,7 +433,7 @@ button {
     padding: 10px 0;
     border-radius: 30px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 1rem;
     text-transform: uppercase;
 }
 
@@ -489,31 +501,11 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/pixelme.svg);
+    background-size: 100%;
     height: auto;
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 345px;
-    padding-top: 200px;
-    margin-bottom: 100px;
-}
-
-.video_title {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #ffffff;
-    font-weight: bold;
-    padding-top: 30px;
-    text-align: center;
-}
-
-.video_text {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 16px;
-    color: #ffffff;
-    padding-top: 40px;
-    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 20rem;
 }
 
 .play_icon_main {

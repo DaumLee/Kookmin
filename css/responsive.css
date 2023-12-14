@@ -5,7 +5,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-search {
-        padding: 15px 0px;
+        padding: 15px 0;
     }
 }
 
@@ -20,23 +20,23 @@
         padding-bottom: 5px;
     }
     .mg {
-        margin: 0px 0px;
+        margin: 0 0;
     }
     .menu-area-main {
         height: 256px;
         overflow-y: auto;
     }
     .megamenu>.row [class*="col-"] {
-        padding: 0px;
+        padding: 0;
     }
     .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
     .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
     .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
     .mean-container .mean-nav ul li a.mean-expand {
         height: 19px;
@@ -46,11 +46,11 @@
     }
     .cart-box {
         display: inline-block;
-        margin: 0px 30px;
+        margin: 0 30px;
     }
     .wish-box {
         float: none;
-        margin: 0px 30px;
+        margin: 0 30px;
         display: inline-block;
     }
     .menu-add {
@@ -60,7 +60,7 @@
         display: none;
     }
     .mean-container .mean-nav ul li ol {
-        padding: 0px;
+        padding: 0;
     }
     .mean-container .mean-nav ul li a {
         padding: 10px 20px;
@@ -74,10 +74,10 @@
         width: 100%;
     }
     .header-search {
-        padding: 15px 0px;
+        padding: 15px 0;
     }
     #collapseFilter.d-md-block {
-        padding: 30px 0px;
+        padding: 30px 0;
     }
 }
 
@@ -89,16 +89,16 @@
         padding-bottom: 5px;
     }
     .megamenu>.row [class*="col-"] {
-        padding: 0px;
+        padding: 0;
     }
     .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
     .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
     .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
     .mean-container .mean-nav ul li a {
         padding: 1em 4%;
@@ -109,7 +109,7 @@
         padding: 1em 5%;
     }
     .mean-container .sub-full.megamenu-categories ol li a {
-        padding: 5px 0px;
+        padding: 5px 0;
         text-transform: capitalize;
         width: 100%;
     }
@@ -129,7 +129,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .header_section {
-        padding: 0px;
+        padding: 0;
         background-size: cover;
     }
     .banner_text {
@@ -140,7 +140,7 @@
         padding-top: 40px;
     }
     .about_text {
-        padding-top: 0px;
+        padding-top: 0;
         font-size: 14px;
     }
     .readmore_bt {
@@ -155,7 +155,7 @@
         margin-top: 50px;
     }
     .member_title {
-        padding-top: 0px;
+        padding-top: 0;
     }
     .box_left {
         width: 60%;
@@ -182,15 +182,10 @@
         padding-top: 25px;
     }
     .choose_section {
-        padding-top: 0px;
+        padding-top: 0;
     }
     .choose_text {
         width: 100%;
-    }
-    .footer_section {
-        padding-top: 270px;
-        background-size: cover;
-        padding-bottom: 30px;
     }
     .input_btn_main {
         width: 60%;
@@ -199,7 +194,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .header_section {
-        padding: 0px;
+        padding: 0;
         background-size: cover;
     }
     .banner_text {
@@ -207,10 +202,10 @@
     }
     .about_title_main {
         padding-left: 25px;
-        padding-top: 0px;
+        padding-top: 0;
     }
     .about_text {
-        padding-top: 0px;
+        padding-top: 0;
         font-size: 14px;
     }
     .readmore_bt {
@@ -228,7 +223,7 @@
         margin-top: 50px;
     }
     .member_title {
-        padding-top: 0px;
+        padding-top: 0;
     }
     .box_left {
         width: 60%;
@@ -255,15 +250,10 @@
         padding-top: 25px;
     }
     .choose_section {
-        padding-top: 0px;
+        padding-top: 0;
     }
     .choose_text {
         width: 100%;
-    }
-    .footer_section {
-        padding-top: 230px;
-        background-size: cover;
-        padding-bottom: 30px;
     }
     .input_btn_main {
         width: 90%;
@@ -290,7 +280,7 @@
     .header_section {
         background-image: url(../images/mobile-bg.png);
         background-size: cover;
-        padding: 0px;
+        padding: 0;
     }
     .navbar-toggler {
         background-color: #ffffff;
@@ -303,7 +293,7 @@
     }
     .logo_mobile {
         width: 40%;
-        padding: 0px;
+        padding: 0;
         text-align: left;
     }
     .mobile_menu {
@@ -316,14 +306,14 @@
         background-color: transparent !important;
     }
     .header_main {
-        padding: 0px;
+        padding: 0;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #ffffff;
         text-align: center;
         background: transparent;
         width: 100%;
-        margin: 10px 0px;
+        margin: 10px 0;
         border-radius: 30px;
     }
     .nav-item {
@@ -346,23 +336,23 @@
         width: 100%;
     }
     .banner_section {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
     .projects_section {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
     .projects_section_2 {
         margin-top: 30px;
     }
     .projects_img {
-        margin-top: 40px;
+        display: none;
     }
     .about_section {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
     .about_title_main {
-        padding-top: 0px;
-        padding-left: 0px;
+        padding-top: 0;
+        padding-left: 0;
     }
     .about_text {
         font-size: 15px;
@@ -377,12 +367,10 @@
         padding-right: 15px;
     }
     .video_section {
-        background-image: url(../images/peng.jpg);
-        background-size: cover;
-        padding: 50px 0px;
-    }
-    .video_text {
         width: 100%;
+        background-image: url(../images/pixelme.svg);
+        background-size: cover;
+        padding: 50px 0;
     }
     .play_icon_main {
         margin-top: 40px;
@@ -417,7 +405,7 @@
         font-size: 30px;
     }
     .choose_section {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
     .choose_text {
         width: 100%;
@@ -432,11 +420,6 @@
     }
     .getquote_bt {
         margin: 0 auto;
-    }
-    .footer_section {
-        background-image: url(../images/footer-mobile-bg.png);
-        background-size: cover;
-        padding: 50px 0px;
     }
     .input_btn_main {
         width: 100%;
@@ -492,7 +475,7 @@
     .header_section {
         background-image: url(../images/mobile-bg.png);
         background-size: cover;
-        padding: 0px; 
+        padding: 0;
     }
     .navbar-toggler {
         background-color: #ffffff;
@@ -505,7 +488,7 @@
     }
     .logo_mobile {
         width: 40%;
-        padding: 0px;
+        padding: 0;
     }
     .mobile_menu {
         display: initial;
@@ -517,14 +500,14 @@
         background-color: transparent !important;
     }
     .header_main {
-        padding: 0px;
+        padding: 0;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #ffffff;
         text-align: center;
         background: transparent;
         width: 100%;
-        margin: 10px 0px;
+        margin: 10px 0;
         border-radius: 30px;
     }
     .nav-item {
@@ -547,23 +530,23 @@
         width: 100%;
     }
     .banner_section {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
     .projects_section {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
     .projects_section_2 {
         margin-top: 30px;
     }
     .projects_img {
-        margin-top: 40px;
+        display: none;
     }
     .about_section {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
     .about_title_main {
-        padding-top: 0px;
-        padding-left: 0px;
+        padding-top: 0;
+        padding-left: 0;
     }
     .about_text {
         font-size: 15px;
@@ -575,12 +558,8 @@
         padding-right: 15px;
     }
     .video_section {
-        background-image: url(../images/peng.jpg);
-        background-size: cover;
-        padding: 50px 0px;
-    }
-    .video_text {
-        width: 100%;
+        background-image: url(../images/pixelme.svg);
+        padding: 50px 0;
     }
     .play_icon_main {
         margin-top: 40px;
@@ -615,7 +594,7 @@
         font-size: 30px;
     }
     .choose_section {
-        padding: 50px 0px;
+        padding: 50px 0;
     }
     .choose_text {
         width: 100%;
@@ -630,11 +609,6 @@
     }
     .getquote_bt {
         margin: 0 auto;
-    }
-    .footer_section {
-        background-image: url(../images/footer-mobile-bg.png);
-        background-size: cover;
-        padding: 50px 0px;
     }
     .input_btn_main {
         width: 100%;
