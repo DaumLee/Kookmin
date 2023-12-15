@@ -15,8 +15,8 @@ https://solbro.netlify.app/
 <h2>Awards</h2>
 <h3>2023 하반기</h3>
 <p>오에스컴퍼니스 솔루션개발본부 인턴 최종합격</p>
-<p>AKIS INFRA(DBA) 공채 최종합격</p>
-<p>삼성전자 DX SCSA 서류합격</p>
+<p>AKIS INFRA(DBA) 부문 공채 최종합격</p>
+<p>삼성전자 DX SCSA 부문 최종합격</p>
 <br>
 <h2>Job Description</h2>
 <p>오에스컴퍼니스 - Girabee 프로젝트 참여</p>
